@@ -7,11 +7,14 @@
 </head>
 <body>
 	<div class="wrap">
-		<div class="header">
-		<h1>I am Header Div</h1>
-		</div>
-		<div class="content">
+	<header>
+	<h1>I am Header</h1>
+	</header>
+		<!--<div class="header">
 		
+		</div>-->
+		
+		<content>
 			<div class="left">
 			left in comtent 
 			</div>
@@ -31,10 +34,10 @@
 			<div class="right">
 			right in comtent
 			</div>
-		</div>
-		<div class="footer">
-		<h1>I am Footer Div</h1>
-		</div>
+		</content>
+		<footer>
+		<h1>I am Footer</h1>
+		</footer>
 	</div>
 	<a href="E014D05Mar17.php" target="_blank">E014D05Mar17</a>
 </body>

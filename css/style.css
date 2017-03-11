@@ -11,17 +11,17 @@ h1{
 	margin:10px auto;
 	padding:10px;
 }
-.header{
+header{
 	background-color:pink;
 	width:965px;
 	height:112px;
 }
-.content{
+content{
 	background-color:green;
 	width:965px;
 	height:500px;
 }
-.footer{
+footer{
 	background-color:white;
 	width:965px;
 	height:40px;
