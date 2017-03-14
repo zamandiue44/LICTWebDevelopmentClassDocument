@@ -3,10 +3,10 @@ include_once('dbconnect.php');
 
 if(isset($_POST['zaman']))
 {
-	echo $name=$_POST['name'];
-	echo $email=$_POST['email'];
-	echo $address=$_POST['address'];
-	echo $joining_date=$_POST['joining_date'];
+	//echo $name=$_POST['name'];
+	//echo $email=$_POST['email'];
+	//echo $address=$_POST['address'];
+	//echo $joining_date=$_POST['joining_date'];
 	
 	$insert="insert into students_record(name,email,address,joining_date)values('".$name."','".$email."','".$address."','".$joining_date."')";
 	$query=mysqli_query($connection, $insert);

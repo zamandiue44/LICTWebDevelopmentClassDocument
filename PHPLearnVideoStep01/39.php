@@ -12,7 +12,7 @@ if(isset($_POST['first']) &&($_POST['last'])){
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>PHP Learn</title>
+	<title>PHP Learn 39 Video</title>
 	<style type="text/css">
 	h1{
 		color:blue;
