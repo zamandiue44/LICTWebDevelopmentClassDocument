@@ -9,7 +9,12 @@ int main()
     scanf("%d", &n);
     for(i=1;i<=n;i++)
     {
-        printf("%d\n",i);
+        for(j=1;j<=i;j++)
+        {
+            k=i+j+0;
+            printf("%d ",k);
+        }
+        printf("\n");
     }
 
 

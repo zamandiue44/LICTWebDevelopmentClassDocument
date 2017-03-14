@@ -33,15 +33,15 @@ if(isset($_POST['submit'])){
 	</style>
 </head>
 <body>
-<h1 align="center">Use isset function with GET and POST methods </h1><hr />
+<h1 align="center">This is my own first Project.</h1><hr />
 	<form action="" method="post">
-	<p>investing_date: <br /> <input type="text" name="investing_date" id="" /> </p>
-	<p>fittings: <br /> <input type="text" name="fittings" id="" /> </p>
-	<p>amount_of_money: <br /> <input type="text" name="amount_of_money" id="" /> </p>
+	<p>Investing Date: <br /> <input type="text" name="investing_date" id="" /> </p>
+	<p>Fittings: <br /> <input type="text" name="fittings" id="" /> </p>
+	<p>Amount Of Money: (Taka) <br /> <input type="text" name="amount_of_money" id="" /> </p>
 	<input type="submit" value="submit" name="submit"/>
 	
 	</form>
 	<hr />
-	<a href="40.php" target="_blank">40</a>
+	
 </body>
 </html>
