@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>PHP Learn 39 Video</title>
+	<title>MY Creativity</title>
 	<style type="text/css">
 	h1{
 		color:blue;
@@ -33,9 +33,9 @@ if(isset($_POST['submit'])){
 	</style>
 </head>
 <body>
-<h1 align="center">This is my own first Project.</h1><hr />
+<h1 align="center">This is My Own First Creative Project.</h1><hr />
 	<form action="" method="post">
-	<p>Investing Date: <br /> <input type="text" name="investing_date" id="" /> </p>
+	<p>Investing Date: <br /> <input type="date" name="investing_date" id="" /> </p>
 	<p>Fittings: <br /> <input type="text" name="fittings" id="" /> </p>
 	<p>Amount Of Money: (Taka) <br /> <input type="text" name="amount_of_money" id="" /> </p>
 	<input type="submit" value="submit" name="submit"/>
